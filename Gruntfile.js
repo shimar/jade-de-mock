@@ -20,7 +20,7 @@ module.exports = function(grunt) {
           syncimport: true
         },
         files: {
-          "dst/stylesheets/<%= pkg.name %>.min.css": "src/less/styles.less"
+          "dst/stylesheets/<%= pkg.name %>.min.css": "src/less/jade-de-mock.less"
         }
       }
     },
