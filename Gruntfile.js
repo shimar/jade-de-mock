@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     jade: {
       compile: {
         options: {
-          prett: true
+          pretty: true
         },
         files: {
           "dst/index.html": ["src/jade/index.jade"]
